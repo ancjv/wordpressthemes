@@ -110,13 +110,13 @@ input, select, textarea {
 		-ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		border-bottom: dotted 1px;
-		color: #f0c75e;
+		color: #33322F;
 		text-decoration: none;
 	}
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #ecb939 !important;
+			color: #6B6863 !important;
 			text-decoration: none;
 		}
 
@@ -1997,6 +1997,40 @@ input, select, textarea {
 			padding: 0;
 		}
 
+/* Skills */
+
+.footer_social{
+	display: flex;
+	padding-top: 30px;
+	flex-wrap: wrap;
+}
+
+.footer_link{
+	width: 60px;
+	height: 60px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.footer_icon{
+	width: 50px;
+}
+
+/* skills */
+
+.skills_s{
+	display: grid;
+	grid-template-columns: repeat(4, minmax(150px, 200px));
+	gap: 0 10px;
+	padding: 0px;
+	margin: 10px 0px 0px;
+	overflow: hidden;
+	list-style: none;
+}
+
 /* Icon */
 
 	.icon {
@@ -2180,6 +2214,7 @@ input, select, textarea {
 				ul.alt li:first-child {
 					border-top: 0;
 					padding-top: 0;
+
 				}
 
 	dl {
